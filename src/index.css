@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
 @import "tailwindcss";
+
+@theme{
+  --font-subtitle: 'Inconsolata', monospace;
+  --font-Small: 'Maven Pro', sans-serif;
+  --color-muted: #E3646E;
+  --color-TextPrimary: #E2E4E9;
+  --color-TextSecondary: #878EA1;
+  --color-cardBackground: #292C34;
+}
 
 body {
   background-color: #16181D;
   font-family: 'Asap', sans-serif;
-  color: #fff;
+  color: var(--color-TextPrimary);
 }
