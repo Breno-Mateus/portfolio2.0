@@ -1,11 +1,14 @@
+import Intro from "./components/Intro/Intro";
+import Services from "./components/Services/Services";
 
 function App() {
 
   return (
     <>
-    <p>Olá mundo!!!!!</p>
+    <Intro />
+    <Services />
     </>
   )
 }
 
-export default App
+export default App;
