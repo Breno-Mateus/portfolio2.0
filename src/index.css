@@ -7,16 +7,18 @@
   --font-subtitle: 'Inconsolata', monospace;
   --font-Small: 'Maven Pro', sans-serif;
   --color-muted: #E3646E;
+  --color-BackgroundPrimary: #16181D;
   --color-TextPrimary: #E2E4E9;
   --color-TextSecondary: #878EA1;
   --color-IconPurple: #BB72E9;
   --color-IconYellow: #EABD5F;
   --color-IconGreen: #82BC4F;
+  --color-IconBlue: #3996DB;
   --color-cardBackground: #292C34;
 }
 
 body {
-  background-color: #16181D;
+  background-color: var(--color-BackgroundPrimary);
   font-family: 'Asap', sans-serif;
   color: var(--color-TextPrimary);
 }

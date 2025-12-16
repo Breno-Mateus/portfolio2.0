@@ -1,5 +1,6 @@
 import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";
+import Contact from "./components/Contact/Contact";
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <Intro />
     <Services />
+    <Contact />
     </>
   )
 }
