@@ -8,7 +8,7 @@ type ServicesCardProps = {
 
 function ServicesCard({ icon, title, description }: ServicesCardProps) {
   return (
-    <div className="w-64 border border-TextSecondary rounded-xl py-7 px-6 flex flex-col justify-between gap-5">
+    <div className="w-64 border border-TextSecondary rounded-xl py-7 px-6 flex flex-col justify-between gap-5 hover:border-muted transition-all duration-300">
       <div>{icon}</div> 
       <div>
         <p className="text-base font-bold">{title}</p>
