@@ -1,6 +1,6 @@
 import ProjectCard from "../ProjectCard/ProjectCard";
-import { projectsData } from "../../data/Projects";
-import { type ProjectType } from "../../data/Projects";
+import { projectsData } from "../../data/ProjectsData";
+import { type ProjectType } from "../../data/ProjectsData";
 
 function Projects() {
   return (
@@ -10,7 +10,7 @@ function Projects() {
             <p className="text-2xl font-bold">Veja os projetos em destaque</p>
         </div>
 
-        <ul className="flex gap-4 justify-center flex-wrap list-none p-0">
+        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center flex-wrap list-none p-0">
             {projectsData.map((project : ProjectType) => (
                 <li key={project.id}>
                     <ProjectCard 
