@@ -2,7 +2,7 @@ import Background from '../../assets/Background_Intro.png';
 import Breno from '../../assets/breno.jpeg';
 import CodeIcon from '../../assets/Code.png';
 import TechCard from '../TechCard/TechCard';
-import { ReactOriginalIcon, GithubOriginalIcon, Html5OriginalIcon, Css3OriginalIcon, JavascriptOriginalIcon, NodejsOriginalIcon, TypescriptOriginalIcon} from '@devicon/react';
+import { ReactOriginalIcon, GithubOriginalIcon, Html5OriginalIcon, Css3OriginalIcon, JavascriptOriginalIcon, NodejsOriginalIcon, TypescriptOriginalIcon, PythonOriginalIcon} from '@devicon/react';
 
 function Intro() {
   return (
@@ -48,6 +48,7 @@ function Intro() {
                 <li><TechCard icon={<TypescriptOriginalIcon />} name="TypeScript"/></li>
                 <li><TechCard icon={<ReactOriginalIcon />} name="React"/></li>
                 <li><TechCard icon={<NodejsOriginalIcon />} name="Node.js"/></li>
+                <li><TechCard icon={<PythonOriginalIcon />} name="Python"/></li>
             </ul>
         </div>
     </section>
