@@ -32,7 +32,7 @@ function Intro() {
                         Hello World! Meu nome é <span className="text-muted">Breno Mateus</span> e sou
                     </p>
                     <h1 className="text-3xl md:text-5xl font-bold text-white">
-                        Desenvolvedor Fullstack
+                        Desenvolvedor de Software
                     </h1>
                     <p className="font-Small text-sm md:text-base max-w-md md:max-w-2xl leading-relaxed">
                         Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
