@@ -1,7 +1,7 @@
 import ServicesCard from "../SevicesCard/ServicesCard";
 import { LuMonitorSmartphone } from "react-icons/lu";
 import { FaDatabase } from "react-icons/fa";
-import { CgInfinity } from "react-icons/cg";
+import { MdRocketLaunch } from "react-icons/md";
 
 function Services() {
   return (
@@ -25,9 +25,9 @@ function Services() {
           />
 
           <ServicesCard 
-            icon={<CgInfinity className="text-IconGreen h-10 w-10" />}
-            title="DevOps"
-            description="Gestão e infraestrutura da aplicação"
+            icon={<MdRocketLaunch className="text-IconGreen h-10 w-10" />}
+            title="Otimização e Performance"
+            description="Aplicações web mais rápidas e eficientes"
           />
         </div>
     </section>
